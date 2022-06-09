@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@font-face {
+    font-family: "Abyss";
+    src: url('/font/Fagostudio-Abysstypeface\ copie/');
+}
 
 * {
     margin: 0;
@@ -58,22 +62,22 @@ main .container-qr-code .text p {
 }
 
 /* La signature */
-main .attribution { 
+.attribution { 
     font-size: 11px; 
     text-align: center;
     margin-top: 3em; 
 }
 
-main .attribution a { 
+.attribution a { 
     color: #3e52a3; 
 }
 
-main .attribution .moi { 
+.attribution .moi { 
     font-size: 1.2em; 
     font-family: Abyss, sans-serif;
     color: #69554F;
 }
 
-main .attribution .moi a { 
+.attribution .moi a { 
     color: #EE5225;
 }
