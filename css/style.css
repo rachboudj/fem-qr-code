@@ -25,6 +25,10 @@ body {
     --color4: #1f3251;
 }
 
+a {
+    text-decoration: none;
+}
+
 main .container-qr-code {
     max-width: 400px;
     background-color: var(--color1);
@@ -51,4 +55,25 @@ main .container-qr-code .text p {
     margin-top: 1em;
     padding: 0 1em;
     color: var(--color3);
+}
+
+/* La signature */
+main .attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 3em; 
+}
+
+main .attribution a { 
+    color: #3e52a3; 
+}
+
+main .attribution .moi { 
+    font-size: 1.2em; 
+    font-family: Abyss, sans-serif;
+    color: #69554F;
+}
+
+main .attribution .moi a { 
+    color: #EE5225;
 }
